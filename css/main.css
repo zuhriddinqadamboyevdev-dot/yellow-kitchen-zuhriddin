@@ -130,7 +130,7 @@ header {
   align-items: center;
   max-width: 900px;
   justify-content: space-between;
-    
+
   border-radius: 10px;
 
 }
@@ -149,4 +149,29 @@ header {
 .banner span img{
   width: 52px;
   height: 52px;
+}
+
+.container-main{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px;
+  align-items: center;
+}
+
+.container-text h2{
+  font-family: var(--poppins);
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 8%;
+}
+
+.container-main button{
+  padding: 15px 25px;
+  border: none;
+  color: #9093A6;
+  background: #f2f4fa;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--martel-sans);
+  font-size: 15px;
 }
