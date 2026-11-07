@@ -86,7 +86,7 @@ header {
   margin-top: 150px;
 }
 
-.main-data h1{
+.main-data h1 {
   font-family: var(--poppins);
   font-size: 60px;
   line-height: 75px;
@@ -118,7 +118,7 @@ header {
   font-family: var(--martel-sans);
 }
 
-.banner{
+.banner {
   background-color: #fff;
   display: flex;
   gap: 35px;
@@ -132,46 +132,150 @@ header {
   justify-content: space-between;
 
   border-radius: 10px;
-
 }
 
-.banner span{
+.banner span {
   display: flex;
   gap: 20px;
 }
 
-.banner p{
+.banner p {
   font-family: var(--martel-sans);
   color: var(--gray-dark);
   letter-spacing: 0.5px;
 }
 
-.banner span img{
+.banner span img {
   width: 52px;
   height: 52px;
 }
 
-.container-main{
+.container-main {
   display: flex;
   justify-content: space-between;
   margin: 60px;
   align-items: center;
 }
 
-.container-text h2{
+.container-text h2 {
   font-family: var(--poppins);
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 8%;
 }
 
-.container-main button{
+.container-main button {
   padding: 15px 25px;
   border: none;
-  color: #9093A6;
+  color: #9093a6;
   background: #f2f4fa;
   border-radius: 5px;
   cursor: pointer;
   font-family: var(--martel-sans);
   font-size: 15px;
 }
+
+
+
+
+
+
+.slide-img-top {
+   width: 100%;
+   height: 220px;
+   border-radius: 12px; 
+   object-fit: cover;
+}
+
+
+.slide-img-bottom {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+}
+
+
+
+
+.finder-section{
+  width: 100%;
+  height: 300px;
+  margin: 100px 0px 0px 0px;
+  background-color: #F2F4FA;
+  margin-bottom: 60px;
+  display: flex;
+  padding: 50px 0px 50px 0px;
+  align-items: center;
+}
+
+
+
+.finder-input input{
+  padding: 20px 5px 20px 5px;
+  background-color: #FFFFFF;
+  font-size: 25px;
+  box-shadow: #00000014;
+  border: none;
+}
+
+.finder-input{
+  align-items: center;
+  justify-content: center;
+  margin-right: 70px;
+  position: relative;
+  
+}
+
+.finder-input i{
+  position: absolute;
+  margin-top:25px ;
+  margin-left: 3px;
+  height: 15px;
+  color: #d4d7e5;
+}
+
+.finder-input input::placeholder{
+  font-size: 19px;
+  align-items: center;
+  padding: 0px 0px 0px 25px;
+
+}
+
+.finder-input button{
+  padding: 25px;
+  background-color: #FFE145;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #B79C10;
+}
+
+.finder-item h2{
+  font-family: var(--poppins);
+  margin-bottom: 20px;
+  font-size: 36px;
+  letter-spacing: 8%;
+  font-weight: 300;
+}
+
+.finder-item p{
+  font-size: 16px;
+  font-family: var(--martel-sans);
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+
+.finder-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F4FA;
+}
+
+.finder-item{
+  margin-left: 60px;
+}
+

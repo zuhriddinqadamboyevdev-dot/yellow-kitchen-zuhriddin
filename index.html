@@ -47,7 +47,6 @@
         </div>
       </div>
     </header>
-
     <!--headerning tugashi-->
 
     <!--mainning boshlanishi-->
@@ -110,28 +109,52 @@
 
     <!--mahsulotlar sahifaning boshi-->
     <section class="section-main">
-      <div class="conteiner">
+      <div class="container">
         <div class="container-main">
           <div class="container-text">
             <h2>Restaurants</h2>
           </div>
           <button>show all</button>
         </div>
-      </div>
 
-      <div class="swiper resSwiper">
-        <div class="swiper-wrapper">
-          
-          
+        <div class="swiper resSwiper">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
       </div>
     </section>
+
     <!--mahsulotlar sahifaning tugshi-->
+
+    <section class="finder-section">
+      <div class="container">
+        <div class="finder-items">
+          <div class="finder-item">
+            <h2>Your nearest restaurants</h2>
+            <p>
+              Each kitchen works with its own delivery area
+              <br />
+              to deliver food to you as soon as possible
+            </p>
+          </div>
+          <div class="finder-input">
+            <i class="fa-solid fa-location-dot"></i>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter delivery address"
+            />
+            <button>send</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/app.js"></script>
+    <script src="data/data.js"></script>
   </body>
 </html>
